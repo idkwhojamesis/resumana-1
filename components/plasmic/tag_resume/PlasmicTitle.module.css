@@ -1,0 +1,16 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotTargetTextresume {
+  font-size: 24px;
+}
+.slotTargetTextheading {
+  font-size: 20px;
+}
+.slotTargetTextsection {
+  font-size: 12px;
+}

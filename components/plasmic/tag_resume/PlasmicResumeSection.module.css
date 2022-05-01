@@ -1,0 +1,102 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  margin-bottom: 0px;
+  max-width: 465px;
+  min-width: 0;
+}
+.root > :nth-child(1n + 1) {
+  width: calc((100% - 1 * 0px) * 12 / 12);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :nth-child(1n + 1) {
+    width: calc((100% - 1 * 0px) * 12 / 12);
+  }
+}
+.rootaddNew {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-row-gap: 0px;
+}
+.rootaddNew > :nth-child(1n + 1) {
+  width: calc((100% - 1 * 0px) * 12 / 12);
+}
+.column {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-width: 0;
+  padding: 8px;
+}
+.title:global(.__wab_instance) {
+  position: relative;
+}
+.titleaddNew:global(.__wab_instance) {
+  display: none;
+}
+.text__z70U8 {
+  white-space: pre;
+}
+.textaddNew__z70U8LpIFv {
+  background: var(--token-bttfgwdxi);
+  padding: 4px;
+}
+.addNewSectionButton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  height: 28px;
+  margin-right: 0px;
+  width: auto;
+  align-self: center;
+  flex-shrink: 0;
+  display: none;
+}
+.addNewSectionButtonaddNew:global(.__wab_instance) {
+  display: flex;
+}
+.svg__nw7Um {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__gsTzt {
+  text-align: center;
+}
+.svg__mRopy {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.description {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  font-size: 12px;
+  min-width: 0;
+}
+.descriptionaddNew {
+  display: none;
+}

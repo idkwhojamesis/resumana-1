@@ -1,0 +1,19 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.freeBox__mtOPj {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  background: #eff797;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  margin: 2px;
+}

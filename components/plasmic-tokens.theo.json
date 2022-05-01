@@ -1,0 +1,29 @@
+{
+  "props": [
+    {
+      "name": "bright",
+      "type": "color",
+      "value": "#EEFFB6",
+      "category": "color",
+      "meta": {
+        "projectId": "nq12TutH13we1UigJmjqSV",
+        "id": "bttfgwdxi"
+      }
+    },
+    {
+      "name": "mobile tags stack max height",
+      "type": "spacing",
+      "value": "100px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "nq12TutH13we1UigJmjqSV",
+        "id": "D88H_kC5p"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
